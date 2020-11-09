@@ -3,7 +3,7 @@ body {
 }
 
 #bootstrap-overrides .sidebar_links>a {
-  padding: 0;
+  padding: 0 0 0 30px;
   font-size: .9em;
 }
 
@@ -12,23 +12,18 @@ body {
   color: black;
 }
 
-#bootstrap-overrides .menu-heading {
+.menu-heading {
+  position: relative;
+  z-index: 100;
   background: #b3d4fc;
   font-size: 1.3em;
+  padding-left: 10px;
+  cursor: default;
 }
 
-#bootstrap-overrides .center-links>.list-group-item {
-  color: #777777;
-  background: #ffffff;
-  margin: 5px auto;
-  width: 60%;
-}
-
-#bootstrap-overrides .center-links>.list-group-item:hover {
-  background: #d4dcea;;
-  color: black;
+a.list-group-item {
   text-decoration: none;
-  font-weight: bold;
+  border-bottom: none;
 }
 
 li a {
@@ -37,5 +32,19 @@ li a {
 
 li a:hover {
   color: black;
+  cursor: default;
 }
 
+.tab-content {
+  padding-left: 30px;
+  background: white;
+  border: 1px solid #dee2e6;
+}
+
+/*#vline-left-border {*/
+/*  position: absolute;*/
+/*  height: 1380px;*/
+/*  padding: 8px;*/
+/*  background: #b3d4fc;*/
+/*  z-index: 1;*/
+/*}*/

@@ -38,18 +38,21 @@
 <div class="container" style="margin-bottom: 20px">
   <div class="row">
     <div class="col-xs-12 center-block text-center mx-auto">
-      <img class="" src="./img/welcome_banner.gif" />
+<!--      <img class="" src="./img/welcome_banner.gif" />-->
+      <h1>Welcome to Your Intranet</h1>
     </div>
   </div>
 </div>
 
-<div class="row no-gutters" style="padding: 0; margin: auto">
+
+<div class="row no-gutters" style="padding: 0; margin: auto;">
 
   <div class="col-2"></div>
 
   <div class="col-2">
-    <div class="list-group-flush text-center sidebar_links">
-      <div class="font-weight-bold rounded text-monospace menu-heading">FACTS</div>
+    <span id="vline-left-border"></span>
+    <div class="list-group-flush sidebar_links">
+      <div class="font-weight-bold text-monospace menu-heading" >FACTS</div>
       <a href="#" class="list-group-item list-group-item-action">BECA</a>
       <a href="#" class="list-group-item list-group-item-action">BECA Table Maintenance</a>
       <a href="#" class="list-group-item list-group-item-action">NetDMS / FACTS Applications</a>
@@ -120,40 +123,40 @@
   <div class="col-4 no-gutters">
     <ul class="nav nav-tabs">
       <li class="nav-item dropdown" style="background: lightskyblue">
-        <a class="nav-link" data-toggle="tab" href="#info" role="button"><i class="fa fa-info-circle" aria-hidden="true"></i>
+        <a class="nav-link" data-toggle="tab" href="#info" role="button" style="border:none"><i class="fa fa-info-circle" aria-hidden="true" style="border:none"></i>
           Information
         </a>
       </li>
       <li class="nav-item dropdown" style="background: lightcoral">
-        <a class="nav-link" data-toggle="tab" href="#procedures" role="button"><i class="fa fa-book" aria-hidden="true"></i>
+        <a class="nav-link" data-toggle="tab" href="#procedures" role="button" style="border:none"><i class="fa fa-book" aria-hidden="true" style="border:none"></i>
           Procedures
         </a>
       </li>
       <li class="nav-item dropdown" style="background: lightgoldenrodyellow">
-        <a class="nav-link" data-toggle="tab" href="#hr" role="button">
+        <a class="nav-link" data-toggle="tab" href="#hr" role="button" style="border:none">
           HR
         </a>
       </li>
       <li class="nav-item dropdown" style="background: lightseagreen">
-        <a class="nav-link" data-toggle="tab" href="#money" role="button" style="text-align: right"><i class="fa fa-usd" aria-hidden="true"></i>
+        <a class="nav-link" data-toggle="tab" href="#money" role="button" ><i class="fa fa-usd" aria-hidden="true"></i>
           Money
         </a>
       </li>
       <li class="nav-item dropdown" style="background: lightsalmon">
-        <a class="nav-link" data-toggle="tab" href="#personnel" role="button">
+        <a class="nav-link" data-toggle="tab" href="#personnel" role="button" style="border:none">
           Personnel
         </a>
       </li>
       <li class="nav-item dropdown" style="background: lightsteelblue">
-        <a class="nav-link" data-toggle="tab" href="#forms" role="button">
+        <a class="nav-link" data-toggle="tab" href="#forms" role="button" style="border:none">
           Forms
         </a>
       </li>
     </ul>
 
 <!--    The content shown in each tab -->
-    <div class="tab-content" style=" padding-top: 10px; background: white; padding-left: 30px;">
-      <div id="info" class="tab-pane fade in" style="margin-top: 0;">
+    <div class="tab-content">
+      <div id="info" class="tab-pane fade in">
         <div class="row">
           <div class="col-6">
             <div class="list-group-flush">
@@ -177,100 +180,182 @@
         </div>
       </div>
 
-      <div id="procedures" class="tab-pane fade in text-center">
-        <div class="list-group center-links">
-          <a href="#" class="list-group-item">Accounting Manual</a>
-          <a href="#" class="list-group-item">Budget Prep Manual</a>
-          <a href="#" class="list-group-item">Building Evacuation Plan</a>
-          <a href="#" class="list-group-item">Credit Card Procedures</a>
-          <a href="#" class="list-group-item">Emergency Procedures</a>
-          <a href="#" class="list-group-item">Envelope Printing</a>
-          <a href="#" class="list-group-item">Personnel Rules & Regulations</a>
-          <a href="#" class="list-group-item">Purchasing Card Procedure</a>
-          <a href="#" class="list-group-item">Purchasing Manual</a>
-          <a href="#" class="list-group-item">Requesting Stop Payments</a>
+      <div id="procedures" class="tab-pane fade in">
+        <div class="row">
+          <div class="col-6">
+            <div class="list-group-flush">
+              <a href="#" class="list-group-item">Accounting Manual</a>
+              <a href="#" class="list-group-item">Budget Prep Manual</a>
+              <a href="#" class="list-group-item">Building Evacuation Plan</a>
+              <a href="#" class="list-group-item">Credit Card Procedures</a>
+              <a href="#" class="list-group-item">Emergency Procedures</a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="list-group-flush">
+              <a href="#" class="list-group-item">Envelope Printing</a>
+              <a href="#" class="list-group-item">Personnel Rules & Regulations</a>
+              <a href="#" class="list-group-item">Purchasing Card Procedure</a>
+              <a href="#" class="list-group-item">Purchasing Manual</a>
+              <a href="#" class="list-group-item">Requesting Stop Payments</a>
+            </div>
+          </div>
         </div>
       </div>
-      <div id="hr" class="tab-pane fade in text-center">
-        <div class="list-group center-links">
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-        </div>
-      </div>
-      <div id="money" class="tab-pane fade in text-center">
-        <div class="list-group center-links">
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-        </div>
-      </div>
-      <div id="personnel" class="tab-pane fade in text-center">
-        <div class="list-group center-links">
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-        </div>
-      </div>
-      <div id="forms" class="tab-pane fade in text-center">
-        <div class="list-group center-links">
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-          <a href="#" class="list-group-item"></a>
-        </div>
-      </div>
-    </div>
 
+      <div id="hr" class="tab-pane fade in ">
+        <div class="row">
+          <div class="col-6">
+            <div class="list-group-flush">
+              <a href="#" class="list-group-item">Benefits Enrollment</a>
+              <a href="#" class="list-group-item">Employee Pictures</a>
+              <a href="#" class="list-group-item">Fixed Asset Loc/Custodian</a>
+              <a href="#" class="list-group-item">Instructions View Paystub</a>
+              <a href="#" class="list-group-item">Insurance Information Links</a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="list-group-flush">
+              <a href="#" class="list-group-item">Job Titles/Descriptions</a>
+              <a href="#" class="list-group-item">Request For Transfer</a>
+              <a href="#" class="list-group-item">Supervisor Guide Discipline</a>
+              <a href="#" class="list-group-item">Supervisor Impression</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="money" class="tab-pane fade in">
+        <div class="row">
+          <div class="col-6">
+            <div class="list-group-flush">
+              <a href="#" class="list-group-item">Cost Centers</a>
+              <a href="#" class="list-group-item">Deferred Compensation</a>
+              <a href="#" class="list-group-item">Direct Deposit</a>
+              <a href="#" class="list-group-item">Finance - Attorney W9's</a>
+              <a href="#" class="list-group-item">Finance - Returned Checks</a>
+              <a href="#" class="list-group-item">Invoice Approval Matrix</a>
+              <a href="#" class="list-group-item">Lost Check Affidavit</a>
+              <a href="#" class="list-group-item">Map Mileage Chart</a>
+              <a href="#" class="list-group-item">Pay Scales</a>
+              <a href="#" class="list-group-item">Registry of Court Calculator</a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="list-group-flush">
+              <a href="#" class="list-group-item">Education Reimbursement</a>
+              <a href="#" class="list-group-item">Travel Expense Report</a>
+              <a href="#" class="list-group-item">Travel Reimbursement-No Receipts</a>
+              <a href="#" class="list-group-item">Travel Request Form</a>
+              <a href="#" class="list-group-item">Finance - Debit/Credit Card Chargebacks</a>
+              <a href="#" class="list-group-item">MassMutual Participant Change Form</a>
+              <a href="#" class="list-group-item">U.S. Savings Bonds</a>
+              <a href="#" class="list-group-item">Point-n-Pay Fee Calculator</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="personnel" class="tab-pane fade in">
+        <div class="row">
+          <div class="col-6">
+            <div class="list-group-flush">
+              <a href="#" class="list-group-item">Employee Comment Form</a>
+              <a href="#" class="list-group-item">Employee Goal Setting Form</a>
+              <a href="#" class="list-group-item">Employee of the Month</a>
+              <a href="#" class="list-group-item">Employee Performance Eval</a>
+              <a href="#" class="list-group-item">Employee Self Eval</a>
+              <a href="#" class="list-group-item">Two Month Eval</a>
+              <a href="#" class="list-group-item">Four Month Eval</a>
+              <a href="#" class="list-group-item">Manager/Supervisor/Level V Eval</a>
+              <a href="#" class="list-group-item">Personnel Action Request</a>
+              <a href="#" class="list-group-item">Request For Loan</a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="list-group-flush">
+              <a href="#" class="list-group-item">Discipline Written Warning Form</a>
+              <a href="#" class="list-group-item">Ninety Day Eval</a>
+              <a href="#" class="list-group-item">Student Comment-Rebuttal Form</a>
+              <a href="#" class="list-group-item">Student Eval Form</a>
+              <a href="#" class="list-group-item">Student Self Eval Form</a>
+              <a href="#" class="list-group-item">Supervisor Of The Quarter</a>
+              <a href="#" class="list-group-item">Timesheet - Hourly</a>
+              <a href="#" class="list-group-item">Timesheet - Hourly Telecommuter</a>
+              <a href="#" class="list-group-item">Timesheet - Salary</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="forms" class="tab-pane fade in">
+        <div class="row">
+          <div class="col-6">
+            <div class="list-group-flush">
+              <a href="#" class="list-group-item">Accident Report - Supervisor</a>
+              <a href="#" class="list-group-item">Accident Report - Vehicle</a>
+              <a href="#" class="list-group-item">Air Quality Report Form</a>
+              <a href="#" class="list-group-item">Disability Certification</a>
+              <a href="#" class="list-group-item">Electronic Access</a>
+              <a href="#" class="list-group-item">First Report of Injury</a>
+              <a href="#" class="list-group-item">Key Receipt</a>
+              <a href="#" class="list-group-item">Key Return</a>
+              <a href="#" class="list-group-item">Request Access - Sheriff</a>
+              <a href="#" class="list-group-item">Acknowledgment of Receipt Staff Handbook</a>
+              <a href="#" class="list-group-item">Clerk's Seal Receipt</a>
+              <a href="#" class="list-group-item">Counterfeit Note Report Form</a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="list-group-flush">
+              <a href="#" class="list-group-item">Employee Workstation Audit</a>
+              <a href="#" class="list-group-item">Employment Interview Essay</a>
+              <a href="#" class="list-group-item">Evidence Code Combination</a>
+              <a href="#" class="list-group-item">Gym Waiver Form</a>
+              <a href="#" class="list-group-item">New Employee Check List For Supervisors</a>
+              <a href="#" class="list-group-item">Outside Employment</a>
+              <a href="#" class="list-group-item">Pre-Paid College Form</a>
+              <a href="#" class="list-group-item">Request for Leave</a>
+              <a href="#" class="list-group-item">Safe Combination Access Receipt</a>
+              <a href="#" class="list-group-item">Student Evaluation Form</a>
+              <a href="#" class="list-group-item">Supervisor Impression</a>
+              <a href="#" class="list-group-item">Threat Incident Report</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
   </div>
 
 
 
   <div class="col-2">
 
-    <div class="card">
-      <div class="card-header bg-secondary text-center">
-        <h3 class="font-weight-bold" style="color: white">Helpdesk Status</h3>
-      </div>
-      <div class="card-body">
-        <div class="list-group">
-          <div class="list-group-item">Mary Lewis<span class="badge badge-pill badge-success" style="float: right">Available</span></div>
-          <div class="list-group-item">Leslie Luck<span class="badge badge-pill badge-danger" style="float: right">Unavailable</span></div>
-          <div class="list-group-item">Angelo Flores<span class="badge badge-pill badge-warning" style="float: right">Busy</span></div>
-          <div class="list-group-item">Scot Votava<span class="badge badge-pill badge-success" style="float: right">Available</span></div>
+    <div class="accordion" id="helpdeskStatus">
+      <div class="card">
+        <div class="card-header bg-secondary text-center" data-toggle="collapse" data-target="#collapseBody">
+          <h3 class="font-weight-bold" style="color: white">
+            <span style="cursor: default">Helpdesk Status <i class="fa fa-caret-down" aria-hidden="true"></i></span>
+          </h3>
+        </div>
+
+        <div id="collapseBody" class="collapse show" data-parent="#helpdeskStatus">
+          <div class="card-body">
+            <div class="list-group">
+              <div class="list-group-item">Mary Lewis<span class="badge badge-pill badge-success" style="float: right">Available</span></div>
+              <div class="list-group-item">Leslie Luck<span class="badge badge-pill badge-danger" style="float: right">Unavailable</span></div>
+              <div class="list-group-item">Angelo Flores<span class="badge badge-pill badge-warning" style="float: right">Busy</span></div>
+              <div class="list-group-item">Scot Votava<span class="badge badge-pill badge-success" style="float: right">Available</span></div>
+            </div>
+          </div>
         </div>
 
       </div>
     </div>
 
-    <div class="list-group-flush text-center sidebar_links">
+
+    <div class="list-group-flush sidebar_links">
       <div class="font-weight-bold rounded text-monospace menu-heading">Web Access</div>
       <a href="#" class="list-group-item list-group-item-action">Advisory Boards</a>
       <a href="#" class="list-group-item list-group-item-action">Classified Ads</a>
@@ -323,26 +408,28 @@
       <a href="#" class="list-group-item list-group-item-action">Superseded Admin Orders</a>
       <a href="#" class="list-group-item list-group-item-action">Tech Support</a>
       <a href="#" class="list-group-item list-group-item-action">TVL Child Support</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
-      <a href="#" class="list-group-item list-group-item-action">BECA</a>
+      <a href="#" class="list-group-item list-group-item-action">TVL Law Department</a>
+      <a href="#" class="list-group-item list-group-item-action">UpFront Scanning</a>
+      <a href="#" class="list-group-item list-group-item-action">Viera Assistant Supervisors</a>
+      <a href="#" class="list-group-item list-group-item-action">Viera Customer Service</a>
+      <a href="#" class="list-group-item list-group-item-action">Viera Civil</a>
+      <a href="#" class="list-group-item list-group-item-action">Viera File Room</a>
+      <a href="#" class="list-group-item list-group-item-action">Viera Supervisors</a>
+
+      <div class="font-weight-bold rounded text-monospace menu-heading">Telephone Lists</div>
+      <a href="#" class="list-group-item list-group-item-action">Active Hotlins</a>
+      <a href="#" class="list-group-item list-group-item-action">Active Phone Extensions</a>
+      <a href="#" class="list-group-item list-group-item-action">Active Phone Lists</a>
+      <a href="#" class="list-group-item list-group-item-action">BOCC Phone Directory</a>
+      <a href="#" class="list-group-item list-group-item-action">Entire List</a>
+      <a href="#" class="list-group-item list-group-item-action">Fax Numbers</a>
+      <a href="#" class="list-group-item list-group-item-action">MI/Melb/PB</a>
+      <a href="#" class="list-group-item list-group-item-action">Titusville</a>
+      <a href="#" class="list-group-item list-group-item-action">Viera</a>
+      <a href="#" class="list-group-item list-group-item-action">Domestic Violence</a>
+      <a href="#" class="list-group-item list-group-item-action">Judges/Assistants</a>
+      <a href="#" class="list-group-item list-group-item-action">Miscellaneous Numbers</a>
+
     </div>
   </div>
 
