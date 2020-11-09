@@ -43,7 +43,7 @@
   </div>
 </div>
 
-<div class="row" style="padding: 0; margin: auto">
+<div class="row no-gutters" style="padding: 0; margin: auto">
 
   <div class="col-2"></div>
 
@@ -116,44 +116,57 @@
     </div>
   </div>
 
+<!--  The tabs in the center of the page-->
+  <div class="col-4 no-gutters">
+    <ul class="nav nav-tabs">
+      <li class="nav-item dropdown" style="background: lightskyblue">
+        <a class="nav-link" data-toggle="tab" href="#info" role="button"><i class="fa fa-info-circle" aria-hidden="true"></i>
+          Information
+        </a>
+      </li>
+      <li class="nav-item dropdown" style="background: lightcoral">
+        <a class="nav-link" data-toggle="tab" href="#procedures" role="button"><i class="fa fa-book" aria-hidden="true"></i>
+          Procedures
+        </a>
+      </li>
+      <li class="nav-item dropdown" style="background: lightgoldenrodyellow">
+        <a class="nav-link" data-toggle="tab" href="#hr" role="button">
+          HR
+        </a>
+      </li>
+      <li class="nav-item dropdown" style="background: lightseagreen">
+        <a class="nav-link" data-toggle="tab" href="#money" role="button" style="text-align: right"><i class="fa fa-usd" aria-hidden="true"></i>
+          Money
+        </a>
+      </li>
+      <li class="nav-item dropdown" style="background: lightsalmon">
+        <a class="nav-link" data-toggle="tab" href="#personnel" role="button">
+          Personnel
+        </a>
+      </li>
+      <li class="nav-item dropdown" style="background: lightsteelblue">
+        <a class="nav-link" data-toggle="tab" href="#forms" role="button">
+          Forms
+        </a>
+      </li>
+    </ul>
 
-  <div class="col-4">
-
-      <ul class="nav nav-tabs">
-        <li class="nav-item dropdown">
-          <a class="nav-link" data-toggle="tab" href="#info" role="button"><i class="fa fa-info-circle" aria-hidden="true"></i>
-            Information</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" data-toggle="tab" href="#procedures" role="button"><i class="fa fa-book" aria-hidden="true"></i>
-            Procedures</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" data-toggle="tab" href="#hr" role="button">HR</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" data-toggle="tab" href="#money" role="button" style="text-align: right"><i class="fa fa-usd" aria-hidden="true"></i>
-            Money</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" data-toggle="tab" href="#personnel" role="button">Personnel</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link" data-toggle="tab" href="#forms" role="button">
-            Forms
-          </a>
-        </li>
-      </ul>
-
-        <div class="tab-content" style="margin: 50px">
-          <div id="info" class="tab-pane fade in text-center">
-            <div class="list-group center-links">
+<!--    The content shown in each tab -->
+    <div class="tab-content" style=" padding-top: 10px; background: white; padding-left: 30px;">
+      <div id="info" class="tab-pane fade in" style="margin-top: 0;">
+        <div class="row">
+          <div class="col-6">
+            <div class="list-group-flush">
               <a href="#" class="list-group-item">Clerks Newsletter</a>
               <a href="#" class="list-group-item">Connect to Network Printers</a>
               <a href="#" class="list-group-item">County Email Addresses</a>
               <a href="#" class="list-group-item">Courier Mail Code</a>
               <a href="#" class="list-group-item">Employee Discounts</a>
               <a href="#" class="list-group-item">Excluded Public Records</a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="list-group-flush">
               <a href="#" class="list-group-item">Find a Day Of the Week</a>
               <a href="#" class="list-group-item">FL Criminal Justice Network</a>
               <a href="#" class="list-group-item">Foreign Language Interpret</a>
@@ -161,77 +174,80 @@
               <a href="#" class="list-group-item">Travel Expense Instructions</a>
             </div>
           </div>
-          <div id="procedures" class="tab-pane fade in text-center">
-            <div class="list-group center-links">
-              <a href="#" class="list-group-item">Accounting Manual</a>
-              <a href="#" class="list-group-item">Budget Prep Manual</a>
-              <a href="#" class="list-group-item">Building Evacuation Plan</a>
-              <a href="#" class="list-group-item">Credit Card Procedures</a>
-              <a href="#" class="list-group-item">Emergency Procedures</a>
-              <a href="#" class="list-group-item">Envelope Printing</a>
-              <a href="#" class="list-group-item">Personnel Rules & Regulations</a>
-              <a href="#" class="list-group-item">Purchasing Card Procedure</a>
-              <a href="#" class="list-group-item">Purchasing Manual</a>
-              <a href="#" class="list-group-item">Requesting Stop Payments</a>
-            </div>
-          </div>
-          <div id="hr" class="tab-pane fade in text-center">
-            <div class="list-group center-links">
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-            </div>
-          </div>
-          <div id="money" class="tab-pane fade in text-center">
-            <div class="list-group center-links">
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-            </div>
-          </div>
-          <div id="personnel" class="tab-pane fade in text-center">
-            <div class="list-group center-links">
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-            </div>
-          </div>
-          <div id="forms" class="tab-pane fade in text-center">
-            <div class="list-group center-links">
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-              <a href="#" class="list-group-item"></a>
-            </div>
-          </div>
         </div>
+      </div>
+
+      <div id="procedures" class="tab-pane fade in text-center">
+        <div class="list-group center-links">
+          <a href="#" class="list-group-item">Accounting Manual</a>
+          <a href="#" class="list-group-item">Budget Prep Manual</a>
+          <a href="#" class="list-group-item">Building Evacuation Plan</a>
+          <a href="#" class="list-group-item">Credit Card Procedures</a>
+          <a href="#" class="list-group-item">Emergency Procedures</a>
+          <a href="#" class="list-group-item">Envelope Printing</a>
+          <a href="#" class="list-group-item">Personnel Rules & Regulations</a>
+          <a href="#" class="list-group-item">Purchasing Card Procedure</a>
+          <a href="#" class="list-group-item">Purchasing Manual</a>
+          <a href="#" class="list-group-item">Requesting Stop Payments</a>
+        </div>
+      </div>
+      <div id="hr" class="tab-pane fade in text-center">
+        <div class="list-group center-links">
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+        </div>
+      </div>
+      <div id="money" class="tab-pane fade in text-center">
+        <div class="list-group center-links">
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+        </div>
+      </div>
+      <div id="personnel" class="tab-pane fade in text-center">
+        <div class="list-group center-links">
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+        </div>
+      </div>
+      <div id="forms" class="tab-pane fade in text-center">
+        <div class="list-group center-links">
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+          <a href="#" class="list-group-item"></a>
+        </div>
+      </div>
+    </div>
 
   </div>
 

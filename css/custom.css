@@ -31,4 +31,11 @@ body {
   font-weight: bold;
 }
 
+li a {
+  color: black;
+}
+
+li a:hover {
+  color: black;
+}
 
