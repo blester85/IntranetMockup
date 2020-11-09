@@ -41,10 +41,7 @@ li a:hover {
   border: 1px solid #dee2e6;
 }
 
-/*#vline-left-border {*/
-/*  position: absolute;*/
-/*  height: 1380px;*/
-/*  padding: 8px;*/
-/*  background: #b3d4fc;*/
-/*  z-index: 1;*/
-/*}*/
+a.nav-link.active {
+  border: none !important;
+  padding-bottom: 3px;
+}

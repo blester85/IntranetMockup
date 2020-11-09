@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +28,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
@@ -50,7 +52,7 @@
       <updated>1604670646659</updated>
       <workItem from="1604670648477" duration="19527000" />
       <workItem from="1604880612460" duration="787000" />
-      <workItem from="1604925670373" duration="12967000" />
+      <workItem from="1604925670373" duration="24100000" />
     </task>
     <servers />
   </component>
@@ -58,6 +60,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2658" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604943777636">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2658" y="341" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1604943777636" />
     <state x="2586" y="96" width="587" height="888" key="find.popup" timestamp="1604676501745">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
