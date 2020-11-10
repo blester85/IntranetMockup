@@ -48,30 +48,37 @@ a.nav-link.active {
   font-style: italic;
   border: 1px solid black !important;
   border-bottom: none !important;
+  color: black !important;
 }
 
 .infoBackground {
   background: lightskyblue !important;
+  font-weight: normal !important;
 }
 
 .proceduresBackground {
   background: lightcoral !important;
+  font-weight: normal !important;
 }
 
 .hrBackground {
   background: lightgoldenrodyellow !important;
+  font-weight: normal !important;
 }
 
 .moneyBackground {
   background: lightseagreen !important;
+  font-weight: normal !important;
 }
 
 .personnelBackground {
   background: lightsalmon !important;
+  font-weight: normal !important;
 }
 
 .formsBackground {
   background: lightsteelblue !important;
+  font-weight: normal !important;
 }
 
 .whiteBackground {
