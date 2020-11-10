@@ -23,48 +23,60 @@ $('#helpdeskStatus').click(function() {
 $.changeInfoArrowDirection = function(direction) {
   if (direction === 'down') {
     $('#infoArrow').removeClass('fa-caret-right').addClass('fa-caret-down');
+    $('#infoTab').removeClass('infoBackground').addClass('whiteBackground');
   } else if (direction === 'right') {
     $('#infoArrow').removeClass('fa-caret-down').addClass('fa-caret-right');
+    $('#infoTab').removeClass('whiteBackground').addClass('infoBackground');
   }
 };
 
 $.changeProceduresArrowDirection = function(direction) {
   if (direction === 'down') {
     $('#proceduresArrow').removeClass('fa-caret-right').addClass('fa-caret-down');
+    $('#proceduresTab').removeClass('proceduresBackground').addClass('whiteBackground');
   } else if (direction === 'right') {
     $('#proceduresArrow').removeClass('fa-caret-down').addClass('fa-caret-right');
+    $('#proceduresTab').removeClass('whiteBackground').addClass('proceduresBackground');
   }
 }
 
 $.changeHRArrowDirection = function(direction) {
   if (direction === 'down') {
     $('#hrArrow').removeClass('fa-caret-right').addClass('fa-caret-down');
+    $('#hrTab').removeClass('hrBackground').addClass('whiteBackground');
   } else if (direction === 'right') {
     $('#hrArrow').removeClass('fa-caret-down').addClass('fa-caret-right');
+    $('#hrTab').removeClass('whiteBackground').addClass('hrBackground');
   }
 }
 
 $.changeMoneyArrowDirection = function(direction) {
   if (direction === 'down') {
     $('#moneyArrow').removeClass('fa-caret-right').addClass('fa-caret-down');
+    $('#moneyTab').removeClass('moneyBackground').addClass('whiteBackground');
   } else if (direction === 'right') {
     $('#moneyArrow').removeClass('fa-caret-down').addClass('fa-caret-right');
+    $('#moneyTab').removeClass('whiteBackground').addClass('moneyBackground');
   }
 }
 
 $.changePersonnelArrowDirection = function(direction) {
   if (direction === 'down') {
     $('#personnelArrow').removeClass('fa-caret-right').addClass('fa-caret-down');
+    $('#personnelTab').removeClass('personnelBackground').addClass('whiteBackground');
   } else if (direction === 'right') {
     $('#personnelArrow').removeClass('fa-caret-down').addClass('fa-caret-right');
+    $('#personnelTab').removeClass('whiteBackground').addClass('personnelBackground');
   }
 }
 
 $.changeFormsArrowDirection = function(direction) {
   if (direction === 'down') {
     $('#formsArrow').removeClass('fa-caret-right').addClass('fa-caret-down');
+    $('#formsTab').removeClass('formsBackground').addClass('whiteBackground');
   } else if (direction === 'right') {
     $('#formsArrow').removeClass('fa-caret-down').addClass('fa-caret-right');
+    $('#formsTab').removeClass('whiteBackground').addClass('formsBackground');
   }
 }
 
@@ -117,7 +129,7 @@ $.formsPanelStatus = function(status) {
 }
 
 $('#infoHeading').click(function() {
-  if ($('#infoHeading>a>i#infoArrow').hasClass('fa-caret-right')) {
+  if ($('#infoArrow').hasClass('fa-caret-right')) {
     $.infoPanelStatus('open');
     $.changeInfoArrowDirection('down');
     $.changeProceduresArrowDirection('right');
@@ -132,7 +144,7 @@ $('#infoHeading').click(function() {
 });
 
 $('#proceduresHeading').click(function() {
-  if ($('#proceduresHeading>a>i#proceduresArrow').hasClass('fa-caret-right')) {
+  if ($('#proceduresArrow').hasClass('fa-caret-right')) {
     $.proceduresPanelStatus('open');
     $.changeProceduresArrowDirection('down');
     $.changeInfoArrowDirection('right');
@@ -147,7 +159,7 @@ $('#proceduresHeading').click(function() {
 });
 
 $('#hrHeading').click(function() {
-  if ($('#hrHeading>a>i#hrArrow').hasClass('fa-caret-right')) {
+  if ($('#hrArrow').hasClass('fa-caret-right')) {
     $.hrPanelStatus('open');
     $.changeHRArrowDirection('down');
     $.changeInfoArrowDirection('right');
@@ -162,7 +174,7 @@ $('#hrHeading').click(function() {
 });
 
 $('#moneyHeading').click(function() {
-  if ($('#moneyHeading>a>i#moneyArrow').hasClass('fa-caret-right')) {
+  if ($('#moneyArrow').hasClass('fa-caret-right')) {
     $.moneyPanelStatus('open');
     $.changeMoneyArrowDirection('down');
     $.changeInfoArrowDirection('right');
@@ -177,7 +189,7 @@ $('#moneyHeading').click(function() {
 });
 
 $('#personnelHeading').click(function() {
-  if ($('#personnelHeading>a>i#personnelArrow').hasClass('fa-caret-right')) {
+  if ($('#personnelArrow').hasClass('fa-caret-right')) {
     $.personnelPanelStatus('open');
     $.changePersonnelArrowDirection('down');
     $.changeInfoArrowDirection('right');
@@ -192,7 +204,7 @@ $('#personnelHeading').click(function() {
 });
 
 $('#formsHeading').click(function() {
-  if ($('#formsHeading>a>i#formsArrow').hasClass('fa-caret-right')) {
+  if ($('#formsArrow').hasClass('fa-caret-right')) {
     $.formsPanelStatus('open');
     $.changeFormsArrowDirection('down');
     $.changeInfoArrowDirection('right');
