@@ -12,49 +12,57 @@ $('.col-6>.list-group-flush>.list-group-item').hover(function() {
     }, 200);
 });
 
+$('#helpdeskStatus').click(function() {
+  if ($('#helpdeskStatusArrow').hasClass('fa-caret-down')) {
+    $('#helpdeskStatusArrow').removeClass('fa-caret-down').addClass('fa-caret-right');
+  } else {
+    $('#helpdeskStatusArrow').removeClass('fa-caret-right').addClass('fa-caret-down');
+  }
+});
+
 $.changeInfoArrowDirection = function(direction) {
   if (direction === 'down') {
-    $('#infoArrow').removeClass('fa-caret-right').addClass('fa-caret-down');;
+    $('#infoArrow').removeClass('fa-caret-right').addClass('fa-caret-down');
   } else if (direction === 'right') {
-    $('#infoArrow').removeClass('fa-caret-down').addClass('fa-caret-right');;
+    $('#infoArrow').removeClass('fa-caret-down').addClass('fa-caret-right');
   }
 };
 
 $.changeProceduresArrowDirection = function(direction) {
   if (direction === 'down') {
-    $('#proceduresArrow').removeClass('fa-caret-right').addClass('fa-caret-down');;
+    $('#proceduresArrow').removeClass('fa-caret-right').addClass('fa-caret-down');
   } else if (direction === 'right') {
-    $('#proceduresArrow').removeClass('fa-caret-down').addClass('fa-caret-right');;
+    $('#proceduresArrow').removeClass('fa-caret-down').addClass('fa-caret-right');
   }
 }
 
 $.changeHRArrowDirection = function(direction) {
   if (direction === 'down') {
-    $('#hrArrow').removeClass('fa-caret-right').addClass('fa-caret-down');;
+    $('#hrArrow').removeClass('fa-caret-right').addClass('fa-caret-down');
   } else if (direction === 'right') {
-    $('#hrArrow').removeClass('fa-caret-down').addClass('fa-caret-right');;
+    $('#hrArrow').removeClass('fa-caret-down').addClass('fa-caret-right');
   }
 }
 
 $.changeMoneyArrowDirection = function(direction) {
   if (direction === 'down') {
-    $('#moneyArrow').removeClass('fa-caret-right').addClass('fa-caret-down');;
+    $('#moneyArrow').removeClass('fa-caret-right').addClass('fa-caret-down');
   } else if (direction === 'right') {
-    $('#moneyArrow').removeClass('fa-caret-down').addClass('fa-caret-right');;
+    $('#moneyArrow').removeClass('fa-caret-down').addClass('fa-caret-right');
   }
 }
 
 $.changePersonnelArrowDirection = function(direction) {
   if (direction === 'down') {
-    $('#personnelArrow').removeClass('fa-caret-right').addClass('fa-caret-down');;
+    $('#personnelArrow').removeClass('fa-caret-right').addClass('fa-caret-down');
   } else if (direction === 'right') {
-    $('#personnelArrow').removeClass('fa-caret-down').addClass('fa-caret-right');;
+    $('#personnelArrow').removeClass('fa-caret-down').addClass('fa-caret-right');
   }
 }
 
 $.changeFormsArrowDirection = function(direction) {
   if (direction === 'down') {
-    $('#formsArrow').removeClass('fa-caret-right').addClass('fa-caret-down');;
+    $('#formsArrow').removeClass('fa-caret-right').addClass('fa-caret-down');
   } else if (direction === 'right') {
     $('#formsArrow').removeClass('fa-caret-down').addClass('fa-caret-right');
   }
