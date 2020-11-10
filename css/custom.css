@@ -24,6 +24,8 @@ body {
 a.list-group-item {
   text-decoration: none;
   border-bottom: none;
+  margin-right: 0;
+  padding-right: 0;
 }
 
 li a {
@@ -43,5 +45,7 @@ li a:hover {
 
 a.nav-link.active {
   border: none !important;
-  padding-bottom: 3px;
+  padding-bottom: 3px;  /* increase the padding for a thinner active tab underline color, decrease for thicker */
+  font-weight: bold;
+  font-style: italic;
 }
